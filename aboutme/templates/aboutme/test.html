@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Seoyoung Hwang</title>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  </head>
+  <body>
+<!-- Navbar -->
+    <nav class = "navbar navbar-inverse" id="my-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="" class="navbar-brand"> Home </a>
+            </div>
+            <div class="collapse navbar-collapse">
+
+                <ul class="nav navbar-nav">
+                <li class="active"><a href="#aboutme">About Me</a></li>
+                <li><a href="#gallery">Gallery</a>
+                <li><a href="#interest">Interests</a>
+                <li><a href="#moreinfo">Extra</a>
+                <li><a href="#contact">Contact Me</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- jumbotron-->
+    <div class="jumbotron" id="home">
+        <div class="container text-center">
+            <h1>Seoyoung Hwang</h1>
+            <p>write information needed</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedback-->
+    <div class="container">
+        <section>
+            <div class="page-header" id="aboutme">
+                <h2>About Me.<small>Check out the feedback</small></h2>
+            </div>
+
+            <div class="row">
+                <div class = "col-lg-4">
+                    <blockquote>
+                        <p>More Information</p>
+                        <footer>Claire</footer>
+                    </blockquote>
+                </div>
+                <div class = "col-lg-4">
+                    <blockquote>
+                        <p>More Information</p>
+                        <footer>Claire</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <section>
+        <div class="well">
+            <div class="container text-center">
+                <h3>Who are you?</h3>
+                <p>Enter Name</p>
+
+                <form action="" class="form-inline">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Yourname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Phone Number</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter your Email">
+                    </div>
+                    <button type="submit" class="btn btn-default">Save</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="container">
+        <section>
+            <div class="page-header" id="gallery">
+                <h2>Gallery.<small>Check out the Images</small></h2>
+            </div>
+              <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="img/cactus.png" alt="Text of the image">
+                        <div class="carousel-caption">
+                            <h3>2015 Fall</h3>
+                            <p>호수공원</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/winter_1.jpg" alt="Text of the image">
+                        <div class="carousel-caption">
+                            <h3>2015 Winter</h3>
+                            <p>대관령</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/spring.jpg" alt="Text of the image">
+                        <div class="carousel-caption">
+                            <h3>2015 Spring</h3>
+                            <p>한밭수목원</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#screenshot-carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">    </span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#screenshot-carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Faq -->
+
+    <div class="container">
+      <section>
+        <div class="page-header" id="moreinfo">
+          <h2>More Info.<small>What else...</small></h2>
+        </div><!-- End Page Header -->
+
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+                  Question one?
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas non urna in fringilla. Praesent consequat est at feugiat faucibus
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+                  Question Two?
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas non urna in fringilla. Praesent consequat est at feugiat faucibus
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+                  Question Three?
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-3" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas non urna in fringilla. Praesent consequat est at feugiat faucibus
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+        </div><!-- End panel group -->
+
+      </section>
+    </div><!-- End container -->
+
+
+    <div class="subscribe-social">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-8 col-sm-12 col-xs-12">
+              <div class="subscibe">
+                   <form role="form">
+                      <div class="col-md-8 col-sm-10 col-xs-12">
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Enter Your Email address">
+              </div>
+                        </div>
+                        <div class="col-md-4 col-sm-2 col-xs-12 centertext">
+                <button type="submit" class="btn btn-or">Subscibe</button>
+                        </div>
+            </form>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 text-center">
+              <ul class="social">
+                  <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="address" id="contact">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="alldesc">
+                <div class="col-md-6 col-sm-6 col-xs-12 centertext">
+                  <p class="all-td">How To Get In Touch</p>
+                  <h2>Contact</h2>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 info centertext">
+                  <p>10/B/195 Barcolomy Real Estate</p>
+                        <p>Keep Walking, America</p>
+                        <p>Tel No : +12345678</p>
+                        <p>Email : Yogeshpix@gmail.com</p>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+    <script src="js/bootstrap.min.js"></script>
+<script src="js/typed.js" type="text/javascript"></script>
+<script src="js/jquery.mixitup.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.countTo.js"></script>
+<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="js/jquery.quovolver.js"></script>
+<script>
+  </body>
+</html>
